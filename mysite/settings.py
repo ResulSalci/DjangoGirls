@@ -1,5 +1,3 @@
-import mimetypes
-mimetypes.add_type("text/css", ".css", True)
 """
 Django settings for mysite project.
 
@@ -25,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vr0p1&z*%#h2i8$ou#cfl5r4kihyuij$n!b^ugl&d4)ld)f=nc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','myfirstdjangoapp.onrender.com']
 
